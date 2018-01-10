@@ -14,7 +14,7 @@ a{
 ol, ul{
 	list-style-position: inside;
 }
-::selection{ 
+::selection{
 	background: #f60c3e;
 	color: #fff;
 }
@@ -23,9 +23,8 @@ body{
 	color: #444;
 	font-size: 62.5%;
 	text-align: center;
-	background: #f6dfbd url(2.png) no-repeat bottom;
 	background-attachment: fixed;
-	-webkit-background-size: cover; 
+	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 }
@@ -102,7 +101,7 @@ main{
 }
 h1{
 	color: #e7e0cc;
-	text-shadow: 
+	text-shadow:
 		2px 2px 0 #222,
 		1px 1px 0 #222,
 		3px 3px 0 #222,
@@ -115,7 +114,7 @@ h1{
 	font-size: 3.5rem;
 	line-height: 1;
 	text-align: center;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 .posts li a:hover h1{
 	color: #fff !important;
@@ -127,28 +126,28 @@ h1 p{
 	width: auto;
 	line-height: 1;
 	margin: 0 .5em;
-    box-shadow: 4px 4px rgba(67,65,42,0.2);	
+    box-shadow: 4px 4px rgba(67,65,42,0.2);
 	transition: all .1s ease-in .1s;
 }
 
 @keyframes flash1 {
 	0% {	transform: rotateZ(0deg) scale(1)}
 	50% {transform: rotateZ(2deg) scale(1.15);}
-	70% {transform: rotateZ(-1deg) scale(.97);}	
+	70% {transform: rotateZ(-1deg) scale(.97);}
 	100% {transform: rotateZ(0deg) scale(1.1);}
 }
 
 @keyframes flash2 {
 	0% {	transform: rotateZ(0deg) scale(1) translate(1em,0);}
 	50% {transform: rotateZ(-2deg) scale(1.2) translate(1em,0);}
-	70% {transform: rotateZ(1deg) scale(.94) translate(1em,0);}	
+	70% {transform: rotateZ(1deg) scale(.94) translate(1em,0);}
 	100% {transform: rotateZ(0deg) scale(1.1) translate(1em,0);}
 }
 
 @keyframes flash3 {
 	0% {	transform: rotateZ(0deg) scale(1) translate(-2em,0);}
 	50% {transform: rotateZ(3deg) scale(1.15) translate(-2em,0);}
-	70% {transform: rotateZ(-2deg) scale(.97) translate(-2em,0);}	
+	70% {transform: rotateZ(-2deg) scale(.97) translate(-2em,0);}
 	100% {transform: rotateZ(0deg) scale(1.1) translate(-2em,0);}
 }
 .posts li a:hover h1 p{
@@ -164,7 +163,7 @@ h1 .p2{
 }
 h1 .p3{
 	background: #55533d;
-	transform: translate(-2em,0);	
+	transform: translate(-2em,0);
 }
 .posts li a:hover h1 .p3{
     animation: flash3 .3s ease-in .3s 1 alternate;
@@ -187,10 +186,10 @@ q{
 	transform: skewY(-8deg);
 	color: #e7e0cc;
 	margin-top: 3.5em;
-	text-shadow: 
+	text-shadow:
 		.05em .05em 0 rgba(67,65,42,0.2),
 		.02em .02em 0 rgba(67,65,42,0.7),
-		.04em .04em 0 rgba(67,65,42,0.4);		
+		.04em .04em 0 rgba(67,65,42,0.4);
 	line-height: 1.2;
 }
 q:before,q:after{
@@ -203,7 +202,7 @@ q span{
 }
 q blockquote{
 	font-size: 4rem;
-	font-style: italic;	
+	font-style: italic;
 }
 .social-share{
 	margin: 1em 0 3.5em;
@@ -300,8 +299,8 @@ header a{
   .icon-wechat .wechat-qrcode .help p{font-weight:normal;line-height:16px;padding:0;margin:0;}
   .icon-wechat .wechat-qrcode:after{content:'';position:absolute;left:50%;margin-left:-6px;bottom:-13px;width:0;height:0;border-width:8px 6px 6px 6px;border-style:solid;border-color:#fff transparent transparent transparent}
   .icon-wechat:hover .wechat-qrcode{display: block;}
-  
-  
+
+
 @media screen and (max-width: 990px) {
 	html{
 		font-size: 40%;
@@ -337,10 +336,10 @@ header a{
 	q{
 		font-family: sans-serif;
 		font-weight: 700;
-		text-shadow: 
+		text-shadow:
 			0 .2em 0 rgba(210,36,7,1),
-			.2em 0 0 rgba(210,36,7,1),		
-			-.2em 0 0 rgba(210,36,7,1),						
+			.2em 0 0 rgba(210,36,7,1),
+			-.2em 0 0 rgba(210,36,7,1),
 			0 -.2em 0 rgba(210,36,7,1);
 	}
 	q span{
@@ -356,9 +355,9 @@ header a{
 		font-size: 2rem;
 	}
 	footer{
-		background-image: url('../assets/1-m.png');		
+		background-image: url('../assets/1-m.png');
 	}
 	.mask{
-		border: .4rem solid #fff;	
+		border: .4rem solid #fff;
 	}
 }
