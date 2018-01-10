@@ -4,7 +4,7 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>UC Style Anyway.FM</title>
+	<title>Anyway.Brand</title>
 	<link href="http://anywayfm.com/atom.xml" rel="self"/>
 	<link href="http://anywayfm.com"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>

@@ -5,11 +5,10 @@ var gulp = require('gulp'),
 var cdnUrl = [
 	[ '../assets/', 'https://anyway-web.b0.upaiyun.com/anywayfm.com/' ]
 ];
- 
+
 gulp.task('watch', function() {
 	gulp.watch(['*','*/*'], ['default']);
  });
- 
  
 gulp.task('default', function() {
 	gulp.src(['assets/*.css','!assets/*.min.css'])
@@ -18,6 +17,5 @@ gulp.task('default', function() {
 		.pipe(plugins.rename({
 		      suffix: '.min'
 		    }))
-		.pipe(gulp.dest('builds/'));     
+		.pipe(gulp.dest('builds/'));
 });
-
