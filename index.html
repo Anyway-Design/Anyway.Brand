@@ -2,33 +2,21 @@
 layout: default
 title: Anyway.Brand · 设计播客 Anyway.FM 的 Brand Guildelines
 ---
-<main>
-	<ol class="posts" reversed>
+<aside>
+	<ul class="posts">
 	  {% for post in site.posts %}
 	    <li>
 	    	 <a target="_blank" href="{{ post.content  | remove: '<p>' | remove: '</p>' }}" title="{{ post.title }}">
-	    	 	<h1>
-	    	 		<p class="p1">{{ post.title }}</p>
-
-	    	 		{% if post.meta %}
-	    	 		  <p class="p2">{{ post.meta }}</p>
-	    	 		{% endif %}
-
-	    	 		{% if post.author %}
-	    	 			  <p class="p3">{{ post.author }}</p>
-	    	 		{% endif %}
-	    	 	</h1>
-	    	 	<span class="date">{{ post.date | date: "%Y 年 %m 月 %d 日" }}</span>
+	    	 	{{ post.title }}
 	    	 </a>
 	    </li>
 	  {% endfor %}
-	</ol>
-
-	<q>
-
+	</ul>
 
 		<blockquote>The End</blockquote>
-	</q>
-
-
+</aside>
+<main>
+	<h1>关于 Anyway.Brand</h1>
+	<p>Anyway.Brand 是一份品牌规范文档，用于设计杂谈播客 <a href="https://Anyway.FM">Anyway.FM</a> 及其周边产品</p>
+	
 </main>
