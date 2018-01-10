@@ -21,16 +21,16 @@ ol, ul{
 /*~Fonts*/
 @font-face {
 	font-family: 'Anyway Type';
-	src: url('../builds/fonts/calluna-sans-regular.woff2') format('woff2'),
-		url('../builds/fonts/calluna-sans-regular.woff') format('woff');
+	src: url('https://anyway-web.b0.upaiyun.com/font/calluna-sans-regular.woff2') format('woff2'),
+		url('https://anyway-web.b0.upaiyun.com/font/calluna-sans-regular.woff') format('woff');
 	font-weight: 400;
 	font-style: normal;
 	font-display: fallback;
 }
 @font-face {
 	font-family: 'Anyway Type';
-	src: url('../builds/fonts/calluna-sans-bold.woff2') format('woff2'),
-	url('../builds/fonts/calluna-sans-bold.woff') format('woff');
+	src: url('https://anyway-web.b0.upaiyun.com/font/calluna-sans-bold.woff2') format('woff2'),
+	url('https://anyway-web.b0.upaiyun.com/font/calluna-sans-bold.woff') format('woff');
 	font-weight: 700;
 	font-style: normal;
 	font-display: fallback;
@@ -40,6 +40,11 @@ body{
 	color: #444;
 	font-size: 62.5%;
 	text-align: center;
+	display: flex;
+	flex-direction: row;
+}
+aside{
+	width: 30%;
 }
 /*~Footer*/
 footer{
@@ -77,10 +82,10 @@ nav li a{
 }
 /*~Main*/
 main{
-	width: 70vw;
+	width: 70%;
 	height: auto;
 	display: block;
 	text-align: left;
-	margin: 16vh auto 20vh;
+	background: #f60c3e;
 	padding: 3em;
 }
