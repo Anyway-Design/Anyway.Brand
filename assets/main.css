@@ -44,7 +44,7 @@ body{
 	flex-direction: row;
 }
 aside{
-	width: 30%;
+	width: 20rem;
 }
 /*~Footer*/
 footer{
@@ -66,24 +66,24 @@ footer{
 .logo img{
 	max-width: 100%;
 }
-nav{
+.nav{
 	text-align: center;
-	clear: both;
+	display: flex;
 	width: 100%;
 }
-nav li{
+.nav li{
 	margin: 1em;
 	font-size: .8rem;
 	list-style: none;
 	display: inline-block;
 }
-nav li a{
-	color: #fff;
+.nav li a{
+	color: #222;
 }
 /*~Main*/
 main{
-	width: 70%;
-	height: auto;
+	height: 100%;
+	color: #fff;
 	display: block;
 	text-align: left;
 	background: #f60c3e;
