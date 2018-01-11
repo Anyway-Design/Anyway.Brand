@@ -70,6 +70,7 @@ footer{
 	text-align: center;
 	display: flex;
 	width: 100%;
+	flex-direction: column;
 }
 .nav li{
 	margin: 1em;
@@ -88,4 +89,5 @@ main{
 	text-align: left;
 	background: #f60c3e;
 	padding: 3em;
+	flex-grow: 1;
 }
