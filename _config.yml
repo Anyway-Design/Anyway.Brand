@@ -1,3 +1,2 @@
 name: Anyway.Brand
-permalink: /:year/:month/:day/:title
-paginate: 16
+permalink: /:title
