@@ -17,11 +17,14 @@
 
   <body>
     <aside>
+      <div class="logo">
+        <img src=""/>Anyway.Brand
+      </div>
     	<ul class="nav">
         <li>主品牌</li>
     	  {% for post in site.categories.main-brand %}
     	    <li>
-    	    	 <a href="{{ post.url' }}" title="{{ post.title }}">
+    	    	 <a href="{{ post.url' }}" title="{{ post.title | capitalize}}">
     	    	 	{{ post.title }}
     	    	 </a>
     	    </li>
