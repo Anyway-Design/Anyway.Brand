@@ -16,26 +16,28 @@
   </head>
 
   <body>
+
     <aside>
       <div class="logo">
-        <img src=""/>Anyway.Brand
+        <img src="https://anw.red/anyway.fm/logo.svg"/>
+        <!-- Anyway.Brand -->
       </div>
     	<ul class="nav">
-        <li>主品牌</li>
+        <li class="nav-label"><span>主品牌</span></li>
     	  {% for post in site.categories.main-brand %}
     	    <li>
     	    	 <a href="{{ post.url' }}" title="{{ post.title | capitalize}}">
-    	    	 	{{ post.title }}
+    	    	 	<span>0{{ post.post-number }}</span>{{ post.title | remove_first: "主" | capitalize }}
     	    	 </a>
     	    </li>
     	  {% endfor %}
     	</ul>
       <ul class="nav nav-sub">
-        <li>子品牌</li>
-    	  {% for post in site.categories.main-brand %}
+        <li class="nav-label"><span>子品牌</span></li>
+    	  {% for post in site.categories.sub-brand %}
     	    <li>
     	    	 <a href="{{ post.url' }}" title="{{ post.title }}">
-    	    	 	{{ post.title }}
+    	    	 		<span>0{{ post.post-number }}</span>{{ post.title | remove_first: "副" | capitalize }}
     	    	 </a>
     	    </li>
     	  {% endfor %}
