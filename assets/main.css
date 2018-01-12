@@ -117,10 +117,9 @@ aside{
 	border-color: #fafafa;
 }
 .nav li a:hover{
-	background: #f60c3e;
+	color: #f60c3e;
 	border-style: solid;
 	border-color: #f60c3e;
-	color: #fff;
 }
 .nav li a span{
 	color: #f60c3e;
@@ -128,9 +127,7 @@ aside{
 	font-weight: 700;
 	margin: 0 1em 0 0
 }
-.nav li a:hover span{
-	color: rgba(255,255,255,.4);
-}
+
 .nav-sub li a{
 	/* border-left: .4em solid #ffe324; */
 }
