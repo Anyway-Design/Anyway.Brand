@@ -23,10 +23,6 @@ a{
 	text-decoration: none;
 	transition: all .1s ease-in-out;
 }
-::selection{
-	background: #f60c3e;
-	color: #fff;
-}
 ol, ul{
 	list-style-position: inside;
 }
